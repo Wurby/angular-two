@@ -10,6 +10,8 @@ import {
   MatTabsModule,
   MatDividerModule,
   MatCardModule,
+  MatDatepickerModule,
+  MatNativeDateModule,
 } from '@angular/material';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +21,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { HomeCardsHomeComponent } from './home/home-cards-home/home-cards-home.component';
 import { HomeCardsAboutComponent } from './home/home-cards-about/home-cards-about.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -42,6 +45,10 @@ import { HomeCardsAboutComponent } from './home/home-cards-about/home-cards-abou
     MatTabsModule,
     MatDividerModule,
     MatCardModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
